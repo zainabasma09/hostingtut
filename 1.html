@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#34A0A4",
+                        "primary-hover": "#2D8E92",
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        body {
+            font-family: "League Spartan", sans-serif;
+            background-color: #F8F3ED;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<section
+    class="relative mx-5 md:mx-[50px] mt-5 md:mt-[50px] mb-[50px] h-[650px] md:h-[760px] rounded-[20px] md:rounded-[28px] overflow-hidden bg-cover bg-center"
+    style="background-image:url('hero-bg.jpg');">
+    <div class="absolute inset-0 bg-black/45"></div>
+    <nav class="absolute top-0 left-0 w-full z-20">
+        <div class="max-w-[1500px] mx-auto flex items-center justify-between px-6 md:px-12 h-20">
+            <img src="image (1).png" class="h-7 md:h-8">
+                <ul class="hidden md:flex gap-12 text-white text-[16px] font-medium">
+            <li><a href="1.html" class="text-[#34A0A4]">Home</a></li>
+            <li><a href="2.html" class="hover:text-[#34A0A4]">About</a></li>
+            <li><a href="3.html" class="hover:text-[#34A0A4]">Services</a></li>
+            <li><a href="4.html" class="hover:text-[#34A0A4]">Properties</a></li>
+            <li><a href="5.html" class="hover:text-[#34A0A4]">Contact</a></li>
+                </ul>
+            <div class="hidden md:flex items-center gap-6 text-white text-lg">
+                <i class="fa-brands fa-x-twitter hover:text-primary cursor-pointer"></i>
+                <i class="fa-brands fa-pinterest-p hover:text-primary cursor-pointer"></i>
+                <i class="fa-brands fa-youtube hover:text-primary cursor-pointer"></i>
+                <i class="fa-solid fa-magnifying-glass text-primary cursor-pointer"></i>
+            </div>
+            <button class="md:hidden text-white text-3xl">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
+        <p class="text-lg md:text-[24px] mb-6 md:mb-8">Discover Your Dream Home with Us</p>
+        <h1 class="font-normal leading-[0.95] text-[48px] sm:text-[60px] md:text-[82px] tracking-[-1px] md:tracking-[-2px] max-w-[330px] sm:max-w-[650px] md:max-w-[1300px]">
+            Find the Perfect Property for Your Lifestyle
+        </h1>
+        <a href="#" class="mt-8 md:mt-12 inline-block bg-primary hover:bg-primary-hover text-white uppercase tracking-[3px] text-xs md:text-sm px-10 md:px-14 py-4 md:py-5 rounded-full transition">
+            START SEARCHING
+        </a>
+    </div>
+</section>
+<section class="px-5 md:px-[50px] mb-[50px]">
+    <div class="max-w-[1728px] mx-auto bg-white rounded-[24px] py-[50px] px-6 md:px-[50px] lg:px-16">
+        <div class="max-w-[760px] mx-auto text-center">
+            <h2 class="text-[42px] md:text-[56px] font-normal text-black">What We Do</h2>
+            <p class="mt-6 text-[17px] md:text-[18px] leading-8 text-gray-600">
+                Simplifying the journey of buying, selling, and renting properties.
+                Our expert team provides comprehensive real estate solutions tailored
+                to your needs.
+            </p>
+            <div class="w-14 h-[2px] bg-primary mx-auto mt-8"></div>
+        </div>
+        <div class="mt-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-y-14 gap-x-10">
+            <div>
+                <p class="text-primary text-sm tracking-[3px] font-medium">01</p>
+                <h3 class="mt-5 text-[30px] font-normal leading-tight">Property Sales</h3>
+                <p class="mt-6 text-[17px] leading-8 text-gray-600 max-w-[310px]">Find your dream home with Real Estate – our expert team will guide you through the process and ensure a smooth transaction.</p>
+            </div>
+            <div>
+                <p class="text-primary text-sm tracking-[3px] font-medium">02</p>
+                <h3 class="mt-5 text-[30px] font-normal leading-tight">Property Rentals</h3>
+                <p class="mt-6 text-[17px] leading-8 text-gray-600 max-w-[310px]">Find your dream rental property with Real Estate, offering a variety of options to suit your needs and preferences.</p>
+            </div>
+            <div>
+                <p class="text-primary text-sm tracking-[3px] font-medium">03</p>
+                <h3 class="mt-5 text-[30px] font-normal leading-tight">Property Management</h3>
+                <p class="mt-6 text-[17px] leading-8 text-gray-600 max-w-[310px]">Trust Real Estate to handle the day-to-day management of your property, maximizing its value and minimizing your stress.</p>
+            </div>
+            <div>
+                <p class="text-primary text-sm tracking-[3px] font-medium">04</p>
+                <h3 class="mt-5 text-[30px] font-normal leading-tight">Lucrative Investments</h3>
+                <p class="mt-6 text-[17px] leading-8 text-gray-600 max-w-[310px]">Real Estate presents lucrative investment opportunities in the real estate market, providing high returns on investments.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="px-5 md:px-[50px] py-[50px] md:py-[80px]">
+    <div class="max-w-[1728px] mx-auto">
+        <div class="max-w-[760px] mx-auto text-center">
+            <h2 class="text-[42px] md:text-[60px] leading-[1.05] md:leading-[60px] font-normal tracking-[-1.8px] text-black pb-[20px]">Featured Properties</h2>
+            <p class="text-[17px] md:text-[19px] leading-[32px] md:leading-[36px] text-[#4d5965]">Discover our hand-picked selection of top-notch properties with outstanding features, guaranteed to meet your real estate needs and exceed your expectations.</p>
+            <div class="w-14 h-[2px] bg-primary mx-auto mt-8"></div>
+        </div>
+        <div class="mt-[60px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[50px]">
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-[24px]">
+                    <img src="estate.png" class="w-full h-[241px] object-cover">
+                </div>
+                <p class="mt-[30px] uppercase tracking-[3px] text-[15px] font-medium text-black">Apartment - Queens</p>
+                <h3 class="mt-[20px] text-[25px] leading-[32px] font-normal">Modern Stylish Apartment</h3>
+                <p class="mt-[20px] text-[19px] leading-8 text-gray-600">Discover the epitome of contemporary living in our sleek and chic modern stylish apartments.</p>
+                <p class="mt-[20px] text-[19px] font-semibold text-primary">$150,000</p>
+            </div>
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-[24px]">
+                    <img src="estate2.png" class="w-full h-[241px] object-cover">
+                </div>
+                <p class="mt-[30px] uppercase tracking-[3px] text-[15px] font-medium text-black">Apartment - Queens</p>
+                <h3 class="mt-[20px] text-[25px] leading-[1.4] font-normal">Contemporary Apartments</h3>
+                <p class="mt-[20px] text-[19px] leading-8 text-gray-600">Experience the perfect blend of sophistication and urban living in our cutting-edge contemporary apartments.</p>
+                <p class="mt-[20px] text-primary text-[19px] font-semibold">$150,000</p>
+            </div>
+            <div class="group cursor-pointer">
+                <div class="overflow-hidden rounded-[24px]">
+                    <img src="estate3.png" class="w-full h-[241px] object-cover">
+                </div>
+                <p class="mt-[30px] uppercase tracking-[3px] text-[15px] font-medium text-black">Apartment - Queens</p>
+                <h3 class="mt-[20px] text-[25px] leading-[1.4] font-normal">Suburban Single-Family Homes</h3>
+                <p class="mt-[20px] text-[19px] leading-8 text-gray-600">Embrace the idyllic charm and tranquility of suburban living in our spacious and welcoming single-family homes.</p>
+                <p class="mt-[20px] text-primary text-[19px] font-semibold">$150,000</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="px-5 md:px-[50px] pb-[50px]">
+    <div class="max-w-[1728px] mx-auto bg-white rounded-[24px] p-[50px]">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-start">
+            <div>
+                <p class="text-primary text-[60px] leading-none">❞</p>
+                <h2 class="mt-5 text-[42px] md:text-[60px] leading-[1.05] font-normal max-w-[620px]">
+                    Read from clients who have found the perfect place where they can create...
+                </h2>
+                <div class="w-[50px] h-[2px] bg-primary mt-10"></div>
+                <p class="mt-10 text-[19px] leading-9 text-gray-600 max-w-[560px]">
+                    Discover testimonials from satisfied clients who have found their dream properties with Real Estate, the trusted experts in helping you find the perfect place to call home.
+                </p>
+                <a href="#" class="inline-flex items-center justify-center mt-10 bg-primary hover:bg-primary-hover text-white uppercase tracking-[3px] text-[13px] h-[54px] px-10 rounded-full transition">
+                    MORE TESTIMONIALS
+                </a>
+            </div>
+            <div class="space-y-6">
+                <div class="border border-gray-200 rounded-[20px] p-[30px]">
+                    <div class="text-[#F5B041] text-[20px]">★★★★★</div>
+                    <p class="mt-5 text-[19px] leading-9 text-black">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id convallis neque. Nam scelerisque placerat orci. Maecenas at pulvinar dui. In fermentum, lectus sed tincidunt ornare, arcu ex convallis sapien, quis vestibulum libero tellus quis nisl."
+                    </p>
+                    <p class="mt-6 uppercase tracking-[3px] text-primary text-[15px]">James Oliver</p>
+                </div>
+                <div class="border border-gray-200 rounded-[20px] p-[30px]">
+                    <div class="text-[#F5B041] text-[20px]">★★★★★</div>
+                    <p class="mt-5 text-[19px] leading-9 text-black">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id convallis neque. Nam scelerisque placerat orci. In fermentum, lectus sed tincidunt ornare, arcu ex convallis sapien, quis vestibulum libero tellus quis nisl."
+                    </p>
+                    <p class="mt-6 uppercase tracking-[3px] text-primary text-[15px]">James Oliver</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="px-5 md:px-[50px] pb-[50px]">
+    <div class="max-w-[1728px] mx-auto bg-white rounded-[24px] p-[50px]">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[60px] items-center">
+            <img src="estate4.png" alt="Modern Home" class="w-full aspect-[604/600] object-cover rounded-[24px]">
+            <div>
+                <h2 class="text-[42px] md:text-[56px] leading-[1.1] font-normal text-black">
+                    Connecting people with perfect homes is our passion.
+                </h2>
+                <div class="w-[50px] h-[2px] bg-primary mt-10"></div>
+                <p class="mt-10 text-[19px] leading-8 text-gray-600">
+                    With a genuine passion for helping people find their dream homes, we are dedicated to connecting buyers and sellers in the real estate market. Trust us to make your home buying or selling experience seamless and satisfying.
+                </p>
+                <a href="#" class="inline-flex items-center justify-center mt-10 bg-primary hover:bg-primary-hover text-white uppercase tracking-[3px] text-[13px] h-[54px] px-10 rounded-full transition">
+                    READ MORE
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="px-5 md:px-[50px] pb-[50px]">
+    <div
+        class="relative max-w-[1728px] mx-auto h-[420px] md:h-[550px] rounded-[24px] overflow-hidden bg-cover bg-center "
+        style="background-image:url('estate5.png');">
+         <div class="bg-black/30 absolute inset-0 flex items-center justify-center px-5">
+            <div class="bg-white rounded-[20px] px-10 md:px-16 py-10 md:py-12 text-center max-w-[680px] w-full">
+                <h6 class="uppercase tracking-[3px] text-sm font-medium text-black">Contact Us</h6>
+                <h3 class="mt-4 text-[32px] md:text-[42px] font-normal text-black">Schedule an Appointment</h3>
+                <div class="w-[50px] h-[2px] bg-primary mx-auto mt-6"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="px-5 md:px-[50px] py-[60px]">
+    <div class="max-w-[1728px] mx-auto">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div>
+   <img loading="lazy" decoding="async" width="146" height="24" src="image(2).png" alt="" class="wp-image-299">
+</div>
+
+            <div>
+                <h4 class="text-[26px] font-normal text-black mb-4">About Us</h4>
+                <p class="text-gray-600 leading-7 text-[16px] max-w-[280px]">At Real Estate, we pride ourselves on being a trusted and reputable name in the real estate industry with years of experience.</p>
+            </div>
+
+            <div>
+                <h4 class="text-[26px] font-normal text-black mb-4">Contact Info</h4>
+                <ul class="space-y-2 text-primary text-[16px]">
+                    <li><a href="#" class="hover:underline">13, Fifth Avenue, New York, NY 10166</a></li>
+                    <li><a href="#" class="hover:underline">contact@info.com</a></li>
+                    <li><a href="#" class="hover:underline">555-345-4599</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-[26px] font-normal text-black mb-4">Property Search</h4>
+                <p class="text-gray-600 text-[16px] mb-5 max-w-[280px]">Lorem ipsum dolor sit amet, consectetur elit. Donec faucibus, quam sed.</p>
+
+                <div class="relative max-w-[300px]">
+                    <input type="text" placeholder="Search Properties" class="w-full pl-4 pr-14 py-3 rounded-[10px] bg-white border border-gray-200 text-sm outline-none">
+                    <button class="absolute right-1.5 top-1.5 bottom-1.5 w-9 h-9 bg-primary hover:bg-primary-hover rounded-full flex items-center justify-center text-white transition">
+                        <i class="fa-solid fa-magnifying-glass text-xs"></i>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="border-t border-gray-300 mt-[50px] pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+            <p class="text-gray-500 text-[15px]">Copyright © 2026 Real Estate Company</p>
+            <div class="flex gap-5 text-primary text-lg">
+                <i class="fa-brands fa-x-twitter cursor-pointer hover:opacity-70"></i>
+                <i class="fa-brands fa-pinterest-p cursor-pointer hover:opacity-70"></i>
+                <i class="fa-brands fa-youtube cursor-pointer hover:opacity-70"></i>
+                <i class="fa-brands fa-instagram cursor-pointer hover:opacity-70"></i>
+                <i class="fa-brands fa-facebook-f cursor-pointer hover:opacity-70"></i>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<a href="#" class="fixed bottom-6 right-6 w-11 h-11 bg-primary hover:bg-primary-hover rounded-full flex items-center justify-center text-white shadow-lg transition z-50">
+    <i class="fa-solid fa-arrow-up"></i>
+</a>
+
+<div class="fixed top-1/2 right-0 -translate-y-1/2 z-50 flex flex-col">
+    <a href="#"
+        class="flex items-center gap-3 bg-[#2563EB] text-white px-5 h-[46px] shadow-md hover:bg-[#1d4ed8] transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+            <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10
+            0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9
+            2-2-.9-2-2-2zM7.17 14h9.95c.75 0 1.41-.41
+            1.75-1.03L22 7H6.21l-.94-2H2v2h2l3.6
+            7.59-1.35 2.45A2 2 0 0 0 6 18h12v-2H7.42a.25.25 0 0 1-.22-.37L7.17 14z"/>
+        </svg>
+        <span class="text-[15px] font-medium">Buy Now</span>
+    </a>
+    <a href="#"
+        class="flex items-center gap-3 bg-white text-black px-5 h-[46px] shadow-md mt-[8px] hover:bg-gray-100 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+            <path d="M12 2a10 10 0 100 20 1.5 1.5 0 001.5-1.5c0-.39-.15-.74-.39-1.01a1.5 1.5 0 01-.36-.99A1.5 1.5 0 0114.25 17H16a6 6 0 000-12h-4zm-4 8a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm3-4a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm6 4a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm-3-6a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/>
+        </svg>
+        <span class="text-[15px] font-medium">Customize</span>
+    </a>
+</div>
+</body>
+</html>
